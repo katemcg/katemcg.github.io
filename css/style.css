@@ -1,0 +1,16 @@
+h1{
+	font-size: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#myDiv
+{
+	background-color: #F6EDF9;
+}
+
+#myDiv img
+{
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}

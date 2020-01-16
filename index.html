@@ -6,20 +6,63 @@
 
 		<!-- This is a comment. -->
 
-		<title>kate mcgrath - home</title>
+		<title>kate mcgrath</title>
 
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap" rel="stylesheet">
+
+		<style>
+			ul {
+  				list-style-type: none;
+ 				margin: 0;
+  				padding: 0;
+  				overflow: hidden;
+  				background-color: #ACD7EC;
+			}
+
+			li {
+  				float: left;
+			}
+
+			li a {
+  				display: block;
+  				color: #666;
+  				text-align: center;
+  				padding: 14px 16px;
+  				text-decoration: none;
+			}
+
+			li a:hover:not(.active) {
+  				background-color: #ddd;
+			}
+
+			li a.active {
+  				color: white;
+  				background-color: #169BF2;
+			}
+		</style>
 
 	</head>
 
 	<body>
 
-		<!-- Put all content here. -->
 		<script src=”./js/index.js”></script>
 
-		<div>
+		<div id = "myDiv">
 			<h1>kate mcgrath...</h1>
+
+		<img src="images/panorama.jpeg" alt="Landscape" width: 30px>
+
+		<ul>
+  			<li><a class="active" href="#home">Home</a></li>
+  			<li><a href="#news">Photos</a></li>
+  			<li><a href="#contact">Contact</a></li>
+  			<li><a href="#about">About</a></li>
+		</ul>
+
 		</div>
+
+		<!-- Put all content here. -->
 
 		<div>
 
