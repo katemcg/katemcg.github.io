@@ -5,12 +5,18 @@ h1{
 
 #myDiv
 {
+	padding: 20px;
+	height: 100vh;
 	background-color: #F6EDF9;
 }
 
 #myDiv img
 {
-  max-width: 100%;
-  margin: auto;
-  display: block;
+  	max-width: 100%;
+  	margin: auto;
+  	display: block;
+}
+
+ul{
+	font-family: 'Rubik', sans-serif;
 }
