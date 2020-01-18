@@ -5,9 +5,16 @@ h1{
 
 #myDiv
 {
+	border: 30px solid #F6EDF9;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom: 0px;
 	padding: 20px;
+	padding-top: 0px;
 	height: 100vh;
-	background-color: #F6EDF9;
+	margin: 15px;
+	margin-bottom: 0px;
+	background-color: white;
 }
 
 #myDiv img
@@ -19,4 +26,25 @@ h1{
 
 ul{
 	font-family: 'Rubik', sans-serif;
+}
+
+p{
+	font-family: 'Rubik', sans-serif;
+	font-size: 15px;
+	color: #5D6066;
+}
+
+#idPics{
+	border: 30px solid #EDEEF9;
+	border-bottom: 0px;
+	padding: 20px;
+	padding-top: 0px;
+	height: 100vh;
+	margin: 15px;
+	margin-bottom: 0px;
+	background-color: white;
+}
+
+#idPics img{
+	width: 100px;
 }
